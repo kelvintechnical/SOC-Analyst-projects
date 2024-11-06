@@ -31,7 +31,7 @@ To run these projects, make sure you have Python, Flask, Django, and Vue.js inst
 
 Below is a list of the 15 projects in this directory, each with links to the respective project folder (add links as you complete each project).
 
-1. **[Intrusion Detection Dashboard](#)**
+1. <a href="https://github.com/kelvintechnical/intrustion-detection-dashboard">**[Intrusion Detection Dashboard](#)**</a>
    - **Python Technologies**: Flask, Scapy
    - **Vue.js**: Frontend for real-time alerts and intrusion statistics.
 
