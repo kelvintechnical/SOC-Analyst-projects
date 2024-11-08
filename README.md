@@ -3,6 +3,16 @@
 ### Description
 **SOC Analyst Projects Directory** is a curated collection of 15 practical projects aimed at helping aspiring Security Operations Center (SOC) analysts gain hands-on experience with Python, security-focused technologies, and Vue.js. Each project is designed to build foundational skills in cybersecurity, including network monitoring, threat detection, and incident response, while also providing frontend interfaces for data interaction and visualization.
 
+---
+
+### About Me
+
+Hi, I'm Kelvin R. Tobias, a student at Western Governors University, currently pursuing a bachelor's degree in Software Engineering. I’m deeply passionate about cybersecurity and full-stack development. My ultimate goal is to become a Security Engineer, and I'm building these projects to strengthen my skills in both Python and JavaScript, particularly using the Vue.js framework. I've always found JavaScript challenging, so I'm using Vue.js as a beginner-friendly framework to ease into it. 
+
+This project series not only aids my learning journey but also showcases my dedication to mastering cybersecurity and software development.
+
+---
+
 ### Prerequisites
 To run these projects, make sure you have Python, Flask, Django, and Vue.js installed on your system, as well as any additional dependencies specified in each project.
 
@@ -109,4 +119,3 @@ If you found these projects helpful, please consider leaving feedback or suggest
 [Follow Me on X](https://x.com/kelvinintech)
 
 ---
-
