@@ -1,121 +1,200 @@
-# SOC Analyst Projects Directory
+# 🛡️ SOC Analyst Projects — ML/DL Edition
 
 ### Description
-**SOC Analyst Projects Directory** is a curated collection of 15 practical projects aimed at helping aspiring Security Operations Center (SOC) analysts gain hands-on experience with Python, security-focused technologies, and Vue.js. Each project is designed to build foundational skills in cybersecurity, including network monitoring, threat detection, and incident response, while also providing frontend interfaces for data interaction and visualization.
+
+**SOC Analyst Projects Directory** is a curated collection of **15 hands-on cybersecurity projects** built for aspiring Security Operations Center (SOC) analysts — each upgraded with **Machine Learning, Deep Learning, and Python AI tooling** to go beyond traditional rule-based security.
+
+Every project maps directly to a **CySA+ (CS0-003) exam domain** and simultaneously builds toward an **ML/AI engineering portfolio**. The architecture patterns used here — VAEs, LSTMs, Transformer autoencoders, Graph Embeddings — mirror the same techniques used in cutting-edge AI research.
+
+> *"From OBD Ports to Python Imports."* — Built by a diesel mechanic turned software engineer turned AI researcher.
 
 ---
 
-### About Me
+### 👤 About Me
 
-Hi, I'm Kelvin R. Tobias, a student at Western Governors University, currently pursuing a bachelor's degree in Software Engineering. I’m deeply passionate about cybersecurity and full-stack development. My ultimate goal is to become a Security Engineer, and I'm building these projects to strengthen my skills in both Python and JavaScript, particularly using the Vue.js framework. I've always found JavaScript challenging, so I'm using Vue.js as a beginner-friendly framework to ease into it. 
+Hi, I'm **Kelvin R. Tobias** — Software Engineer, Application Support Analyst at Principle LTC, and founder of **Kelvinintech Consulting LLC**. I hold a B.S. in Software Engineering from WGU (January 2026) and am beginning an M.S. in AI Engineering in December 2026, with a long-term goal of a PhD in Computational Biology focused on **Latent-based Directed Evolution (LDE)**.
 
-This project series not only aids my learning journey but also showcases my dedication to mastering cybersecurity and software development.
+This project series serves two purposes:
+1. ✅ **CySA+ certification prep** — hands-on evidence across every exam domain
+2. 🤖 **ML/AI portfolio** — each project uses the same neural architectures powering modern AI research
 
----
-
-### Prerequisites
-To run these projects, make sure you have Python, Flask, Django, and Vue.js installed on your system, as well as any additional dependencies specified in each project.
-
-- **Install Flask and Django**: Run the following commands to install Flask and Django:
-    ```bash
-    pip install Flask Django
-    ```
-
-### Installation
-1. **Clone the Repository**
-   - Clone this repository to your local machine:
-       ```bash
-       git clone https://github.com/yourusername/SOC-Analyst-Projects.git
-       ```
-   - Navigate into the project directory:
-       ```bash
-       cd SOC-Analyst-Projects
-       ```
-
-2. **Navigate to Each Project**
-   - Go to the project folder for the specific project you wish to run, then follow the installation and setup instructions provided in each project’s README file.
+[🌐 Portfolio](https://kelvinintech.com) · [𝕏 Follow](https://x.com/kelvinintech) · [GitHub](https://github.com/kelvintechnical)
 
 ---
 
-### Projects Overview
+### 🗺️ CySA+ Domain Coverage
 
-Below is a list of the 15 projects in this directory, each with links to the respective project folder (add links as you complete each project).
-
-1. **[Intrusion Detection Dashboard](https://github.com/kelvintechnical/intrustion-detection-dashboard)**
-   - **Python Technologies**: Flask, Scapy
-   - **Vue.js**: Frontend for real-time alerts and intrusion statistics.
-
-2. **[Security Event Management System](#)**
-   - **Python Technologies**: Django, Celery
-   - **Vue.js**: Interface for managing and monitoring security events.
-
-3. **[Network Traffic Analyzer](#)**
-   - **Python Technologies**: PyShark, Pandas
-   - **Vue.js**: Visual dashboard for traffic summaries and patterns.
-
-4. **[Log Analysis Tool](#)**
-   - **Python Technologies**: Elasticsearch, Flask
-   - **Vue.js**: Provides a searchable log analysis interface.
-
-5. **[Vulnerability Management Platform](#)**
-   - **Python Technologies**: Nmap, Django
-   - **Vue.js**: Interface to display network vulnerabilities and remediation steps.
-
-6. **[Real-Time Threat Intelligence Feed](#)**
-   - **Python Technologies**: Flask, Kafka
-   - **Vue.js**: Displays live threat feeds and critical updates.
-
-7. **[File Integrity Monitoring System](#)**
-   - **Python Technologies**: Flask, SQLAlchemy
-   - **Vue.js**: Alerts users on file changes and provides a history of modifications.
-
-8. **[User Activity Tracker](#)**
-   - **Python Technologies**: Django, Celery
-   - **Vue.js**: Visualizes user activity trends and generates reports.
-
-9. **[Incident Response Management Tool](#)**
-   - **Python Technologies**: Django, Twilio
-   - **Vue.js**: Centralized dashboard for managing incidents and communication.
-
-10. **[Phishing Detection System](#)**
-    - **Python Technologies**: Scikit-Learn, Flask
-    - **Vue.js**: Highlights suspicious emails or URLs for review.
-
-11. **[IP Reputation Checker](#)**
-    - **Python Technologies**: Requests, Pandas
-    - **Vue.js**: Displays IP reputation scores and activity history.
-
-12. **[Automated Malware Analysis Platform](#)**
-    - **Python Technologies**: YARA, Flask
-    - **Vue.js**: Analyzes and displays file results for malware signatures.
-
-13. **[API Security Monitoring Tool](#)**
-    - **Python Technologies**: Django, JWT
-    - **Vue.js**: Dashboard for monitoring API requests and responses.
-
-14. **[Brute Force Attack Detector](#)**
-    - **Python Technologies**: Flask, Redis
-    - **Vue.js**: Tracks and alerts on suspected brute-force attempts.
-
-15. **[Threat Hunting and Analysis System](#)**
-    - **Python Technologies**: Flask, Kibana
-    - **Vue.js**: Interface for querying, hunting, and analyzing potential threats.
+| Domain | Coverage |
+|---|---|
+| 1. Security Operations | Projects 4, 6, 8, 13 |
+| 2. Vulnerability Management | Projects 5, 14 |
+| 3. Incident Response | Projects 1, 9, 12 |
+| 4. Reporting & Communication | Projects 3, 11, 15 |
+| 5. Threat Intelligence | Projects 2, 7, 10 |
 
 ---
 
-### What I Learned
-Each project in this directory provided valuable experience with:
-- **Data Analysis**: Analyzing traffic and logs for threat patterns.
-- **Real-Time Alerts**: Setting up proactive alerting for threat detection.
-- **Machine Learning**: Implementing algorithms for phishing and anomaly detection.
-- **Data Storage and Retrieval**: Storing and accessing logs and event data.
-- **Frontend Development**: Using Vue.js to make data accessible and interactive.
+### ⚙️ Prerequisites
+
+```bash
+# Python dependencies
+pip install torch torchvision scikit-learn pandas numpy flask transformers
+
+# Additional per-project deps listed in each repo's requirements.txt
+```
+
+- Python 3.10+
+- PyTorch 2.x
+- Git + GitHub CLI (`gh`)
 
 ---
 
-### Support & Feedback
-If you found these projects helpful, please consider leaving feedback or suggestions to support my journey as a SOC analyst and full-stack developer.
-
-[Follow Me on X](https://x.com/kelvinintech)
+### 📁 Projects Overview
 
 ---
+
+#### 1. 🚨 [cysa-intrusion-detection-lstm](https://github.com/kelvintechnical/cysa-intrusion-detection-lstm)
+**CySA+ Domain:** Incident Response & Network Monitoring  
+**ML Upgrade:** LSTM sequence classifier on NetFlow data — learns the "grammar" of normal traffic and flags deviations  
+**Stack:** `PyTorch`, `scapy`, `Flask`  
+> *Analogy: The LSTM is a mechanic's ear — trained on thousands of healthy engine sounds, it immediately detects a misfire.*
+
+---
+
+#### 2. 🕵️ [cysa-threat-intel-graph-embeddings](https://github.com/kelvintechnical/cysa-threat-intel-graph-embeddings)
+**CySA+ Domain:** Threat Intelligence  
+**ML Upgrade:** Node2Vec graph embeddings on threat actor relationship graphs — clusters IOCs by behavioral similarity  
+**Stack:** `PyTorch Geometric`, `networkx`, `Flask`  
+> *Analogy: Mapping the wiring harness of a threat actor's infrastructure — same signal, different connectors.*
+
+---
+
+#### 3. 🌐 [cysa-network-anomaly-detector](https://github.com/kelvintechnical/cysa-network-anomaly-detector)
+**CySA+ Domain:** Network Security Monitoring  
+**ML Upgrade:** Isolation Forest anomaly detection on packet-level features — unsupervised, no labeled data needed  
+**Stack:** `scikit-learn`, `pyshark`, `pandas`  
+> *Analogy: An OBD scanner that flags sensor readings outside normal operating range — no repair manual needed.*
+
+---
+
+#### 4. 📋 [cysa-log-clustering-dbscan](https://github.com/kelvintechnical/cysa-log-clustering-dbscan)
+**CySA+ Domain:** Security Operations  
+**ML Upgrade:** DBSCAN clustering on syslog events — groups similar log patterns to surface hidden attack sequences  
+**Stack:** `scikit-learn`, `pandas`, `Elasticsearch`  
+> *Analogy: Sorting fault codes by subsystem rather than reading every line of the ECU dump.*
+
+---
+
+#### 5. 🔍 [cysa-vulnerability-risk-scorer](https://github.com/kelvintechnical/cysa-vulnerability-risk-scorer)
+**CySA+ Domain:** Vulnerability Management  
+**ML Upgrade:** PyTorch regression model on CVSS feature vectors — predicts contextual risk score beyond raw CVSS  
+**Stack:** `PyTorch`, `nvdlib`, `pandas`
+
+---
+
+#### 6. 📡 [cysa-siem-anomaly-dashboard](https://github.com/kelvintechnical/cysa-siem-anomaly-dashboard)
+**CySA+ Domain:** Security Operations  
+**ML Upgrade:** Real-time Z-score + concept drift detection on streaming security events  
+**Stack:** `river` (online ML), `Flask`, `Kafka`  
+> *Analogy: A live dashboard that watches RPM, temp, and oil pressure simultaneously — alerts when the pattern shifts, not just when a threshold is crossed.*
+
+---
+
+#### 7. 📧 [cysa-phishing-email-classifier](https://github.com/kelvintechnical/cysa-phishing-email-classifier)
+**CySA+ Domain:** Threat Intelligence  
+**ML Upgrade:** Fine-tuned DistilBERT NLP classifier on email headers and body text  
+**Stack:** `HuggingFace Transformers`, `PyTorch`, `Flask`  
+> *Analogy: Training a model on the "dialect" of phishing — same way you learn to spot a forged VIN.*
+
+---
+
+#### 8. 🦠 [cysa-malware-cnn-classifier](https://github.com/kelvintechnical/cysa-malware-cnn-classifier)
+**CySA+ Domain:** Incident Response  
+**ML Upgrade:** CNN trained on PE header binary entropy visualizations — detects malware families from byte patterns  
+**Stack:** `PyTorch`, `pefile`, `matplotlib`  
+> *Analogy: Reading a fuel injector's spray pattern visually — the shape tells you everything about what's wrong.*
+
+---
+
+#### 9. 🤖 [cysa-incident-response-llm](https://github.com/kelvintechnical/cysa-incident-response-llm)
+**CySA+ Domain:** Incident Response  
+**ML Upgrade:** Claude API-powered triage assistant — ingests alert context and generates structured IR playbook steps  
+**Stack:** `anthropic` SDK, `Flask`, `pandas`
+
+---
+
+#### 10. 🍯 [cysa-honeypot-behavior-clustering](https://github.com/kelvintechnical/cysa-honeypot-behavior-clustering)
+**CySA+ Domain:** Threat Intelligence  
+**ML Upgrade:** K-Means clustering on attacker session features from honeypot logs — profiles attacker archetypes  
+**Stack:** `scikit-learn`, `cowrie` log parser, `matplotlib`
+
+---
+
+#### 11. 🔬 [cysa-forensic-transformer-autoencoder](https://github.com/kelvintechnical/cysa-forensic-transformer-autoencoder)
+**CySA+ Domain:** Digital Forensics / Reporting  
+**ML Upgrade:** Transformer autoencoder on Windows event log sequences — reconstructs normal sequences, flags anomalies by reconstruction error  
+**Stack:** `PyTorch`, `pandas`  
+> *🧬 LDE Tie-in: This encoder-decoder architecture is the same pattern used in protein sequence embeddings for directed evolution.*
+
+---
+
+#### 12. 🔑 [cysa-password-vae-generator](https://github.com/kelvintechnical/cysa-password-vae-generator)
+**CySA+ Domain:** Identity & Access Management  
+**ML Upgrade:** Variational Autoencoder (VAE) trained on weak password datasets — learns the latent space of human password patterns  
+**Stack:** `PyTorch`, `Flask`  
+> *🧬 LDE Tie-in: **This is the same VAE architecture used in Latent-based Directed Evolution** — navigating latent space toward a target, whether that's a stronger password or a more thermostable protein.*
+
+---
+
+#### 13. 🧱 [cysa-firewall-rl-optimizer](https://github.com/kelvintechnical/cysa-firewall-rl-optimizer)
+**CySA+ Domain:** Security Operations / Network Security  
+**ML Upgrade:** Reinforcement Learning agent that optimizes firewall rule ordering to minimize latency while maintaining coverage  
+**Stack:** `stable-baselines3`, `PyTorch`, `gymnasium`  
+> *Analogy: An RL agent tuning fuel injection timing — it learns through trial and error what order fires best.*
+
+---
+
+#### 14. 👤 [cysa-user-behavior-lstm](https://github.com/kelvintechnical/cysa-user-behavior-lstm)
+**CySA+ Domain:** Vulnerability Management / Insider Threat  
+**ML Upgrade:** LSTM autoencoder on user session sequences — detects insider threats by flagging sessions that can't be reconstructed from learned normal behavior  
+**Stack:** `PyTorch`, `pandas`, `Flask`
+
+---
+
+#### 15. 📜 [cysa-compliance-nlp-parser](https://github.com/kelvintechnical/cysa-compliance-nlp-parser)
+**CySA+ Domain:** Reporting & Communication  
+**ML Upgrade:** spaCy + transformer NLP pipeline that parses NIST 800-53 and CIS Controls docs and maps controls to implemented project features  
+**Stack:** `spaCy`, `transformers`, `Flask`
+
+---
+
+### 🧬 The LDE Thread
+
+Three projects have **direct architectural overlap** with my PhD research focus — Latent-based Directed Evolution:
+
+| Project | Architecture | LDE Parallel |
+|---|---|---|
+| #12 Password VAE | Variational Autoencoder | Protein latent space navigation |
+| #11 Forensic Autoencoder | Transformer encoder-decoder | Sequence embedding for directed evolution |
+| #2 Threat Graph Embeddings | Node2Vec / Graph Neural Net | Protein interaction network representation |
+
+> DNA is source code. Proteins are compiled executables. The latent space is the compressed instruction set. These security projects are training ground for the same math.
+
+---
+
+### 📚 What I Learned
+
+- **Anomaly Detection**: Isolation Forest, DBSCAN, Z-score drift for unsupervised threat detection
+- **Sequence Modeling**: LSTMs and Transformer autoencoders for temporal log analysis
+- **NLP for Security**: Fine-tuning BERT-class models on phishing and compliance text
+- **Generative Models**: VAEs for learning latent distributions of security-relevant data
+- **Graph ML**: Node2Vec embeddings for threat actor relationship modeling
+- **Reinforcement Learning**: Policy optimization applied to network security problems
+
+---
+
+### 🤝 Support & Feedback
+
+If these projects helped you, leave a ⭐ and connect:
+
+[🌐 kelvinintech.com](https://kelvinintech.com) · [𝕏 @kelvinintech](https://x.com/kelvinintech) · [GitHub @kelvintechnical](https://github.com/kelvintechnical)
